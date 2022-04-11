@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+main{
+    width: 100%;
+}
+
+@font-face {
+    font-family: candara;
+    src: url(../../fonts/Candara.ttf);
+  }
+
+h1,h2,h3,h4,h5,p{
+   
+    font-family: 'candara';
+}
+
+/*NAVBAR*/
+#navbar{
+    min-height: 60px;
+    position: sticky;
+    background-color: white;
+}
+
+#navbar .logo-imagem{
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+#navbar .divisor{
+    font-family: Arial;
+    font-size: 250%;
+}
+
+/*HOME*/
+
+#home{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*FASES*/
+
+#fases{
+    background-color: black;
+}
+
+/*SOBRE*/
+
+#sobre{
+    background-color: black;
+}
+
+/*DESENVOLVEDORES*/
+
+#desenvolvedores{
+    background-color: white;
+}
+
+#desenvolvedores .dev{
+    margin-top: 1rem;
+}
+
+#desenvolvedores .img-dev{
+    width: 150px;
+    height: 175px;
+}
+
+.user{
+    margin-top: 7.5px;
+    height: 50px;
+}
+
+.username{
+    color: black;
+}
+
+.logout{
+    margin-top: 7.5px;
+    height: 50px;
+    
+}
+
+.fotoslider{
+    width: 10%;
+    height: 10%;
+}
+
+.listslider{
+    margin-top: 2%;
+}
+
+.containerslider{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
